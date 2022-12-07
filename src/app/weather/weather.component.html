@@ -5,7 +5,7 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-5">
             <form>
                 <fieldset>
                     <div class="form-group">
@@ -20,6 +20,21 @@
                 </fieldset>
             </form>
         </div>
+        
+        <div class="row col-md-2"></div>
+        <div class="container">
+            <div class="row col-md-5">
+                <h3 class="text-center" style="padding-top: 60px;">Weather Details</h3>
+                <hr>
+            <body>
+                <div>{{resp}}</div>
+                <!-- <div>{{weatherResp.wind}}</div>
+                <div>{{weatherResp.description}}</div>
+                <div>{{weatherResp.forecast}}</div> -->
+            </body>
+            </div>
+        </div>
+
     </div>
 </div>
 
@@ -27,13 +42,4 @@
 <br>
 <br>
 
-<h1 class="text-center">Weather Details</h1>
 
-<div class="container">
-    <div class="row col-md-7 col-md-offset-3 custyle">
-    <hr>
-    <body>
-        <div>{{resp}}</div>
-    </body>
-    </div>
-</div>
