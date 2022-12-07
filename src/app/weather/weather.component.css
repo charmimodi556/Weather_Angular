@@ -1,0 +1,33 @@
+
+body {
+    padding-top:30px;
+}
+fieldset {
+    border: thin solid #ccc; 
+    border-radius: 4px;
+    padding: 35px;
+    margin-top: 70px;
+    padding-left: 40px;
+    background: #fbfbfb;
+}
+div{
+    position:unset !important;
+}
+.form-control {
+    width: 90%;
+}
+label small {
+    color: #678 !important;
+}
+span.req {
+    color:maroon;
+    font-size: 112%;
+}
+
+thead, tbody { display: block; }
+
+tbody {
+    height: 160px;      /* Just for the demo          */
+    overflow-y: auto;    /* Trigger vertical scroll    */
+    overflow-x: hidden;  /* Hide the horizontal scroll */
+}
